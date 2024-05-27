@@ -82,23 +82,6 @@ for (var i = 0; i < 1000; i++) {
 }
 
 
-
-// Stripe Integration
-/*
-const stripe = Stripe('pk_test_51NSpYnLtA9WcBUtI7mOIXKyVVkefFe0O4xZs7tJ9Yu6exFjT7jEADs7gsOyv4YhMdQc6BR9iCikCa8ZB8FvZNkgN00eSsVDMNm');
-
-const options = {
-  layout: {
-    type: 'tabs',
-    defaultCollapsed: false,
-  }
-};
-const elements = stripe.elements({ clientSecret, appearance });
-
-const paymentElement = elements.create('payment', options);
-paymentElement.mount('#payment-element');
-*/
-
 function post(data="test-data") {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
