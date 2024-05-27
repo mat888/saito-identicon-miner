@@ -4,7 +4,7 @@ const secp256k1 = require('secp256k1');
 const bs58 = require('bs58');
 //const identicon = require('identicon')
 const Identicon = require('identicon.js')
-const Stripe = require('stripe')
+
 
 
 const rs_usr_url = "https://saito.io/redsquare/?user_id="
